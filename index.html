@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap"
+            rel="stylesheet"
+        />
+        <!-- Tailwind -->
+        <link href="/dist/output.css" rel="stylesheet" />
+        <!-- Favicon -->
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon-32x32.png"
+        />
+        <!-- Título -->
+        <title>3-column card</title>
+    </head>
+    <body
+        class="flex sm:justify-center sm:h-screen flex-col sm:flex-row justify-center items-center text-white/70 bg-gray-100"
+    >
+        <!-- Sedans -->
+        <article
+            class="bg-orange-main w-80 p-10 sm:pr-16 rounded-t-md sm:mt-0 mt-16 sm:rounded-l-md sm:rounded-r-none"
+        >
+            <img src="images/icon-sedans.svg" alt="Icon Sedans" class="mb-8" />
+
+            <h1 class="font-Big-Shouders text-white text-5xl uppercase mb-8">
+                Sedans
+            </h1>
+
+            <p class="leading-7 block mb-8 sm:mb-24">
+                Choose a sedan for its affordability and excellent fuel economy.
+                Ideal for cruising in the city or on your next road trip.
+            </p>
+
+            <a
+                href="#"
+                class="inline-block bg-white text-orange-main w-36 text-center py-2 rounded-3xl hover:bg-orange-main hover:text-white border-2 border-white transition-all sm:w-40 sm:py-3 sm:rounded-full"
+                >Learn More
+            </a>
+        </article>
+
+        <!-- SUV -->
+        <article class="bg-cyan-main w-80 p-10 sm:pr-16">
+            <img src="images/icon-suvs.svg" alt="Icon SUVs" class="mb-8" />
+
+            <h1 class="font-Big-Shouders text-white text-5xl uppercase mb-8">
+                SUVs
+            </h1>
+
+            <p class="leading-7 block mb-8 sm:mb-24">
+                Take an SUV for its spacious interior, power, and versatility.
+                Perfect for your next family vacation and off-road adventures.
+            </p>
+
+            <a
+                href="#"
+                class="inline-block bg-white text-cyan-main w-36 text-center py-2 rounded-3xl hover:bg-cyan-main hover:text-white border-2 border-white transition-all sm:w-40 sm:py-3 sm:rounded-full"
+            >
+                Learn More
+            </a>
+        </article>
+
+        <!-- Luxury -->
+        <article
+            class="bg-dark-cyan w-80 p-10 sm:pr-16 rounded-b-md sm:mb-0 mb-16 sm:rounded-r-md sm:rounded-l-none"
+        >
+            <img src="images/icon-luxury.svg" alt="Icon Luxury" class="mb-8" />
+
+            <h1 class="font-Big-Shouders text-white text-5xl uppercase mb-8">
+                Luxury
+            </h1>
+
+            <p class="leading-7 block mb-8 sm:mb-24">
+                Cruise in the best car brands without the bloated prices. Enjoy
+                the enhanced comfort of a luxury rental and arrive in style.
+            </p>
+
+            <a
+                href="#"
+                class="inline-block bg-white text-dark-cyan w-36 text-center py-2 rounded-3xl hover:bg-dark-cyan hover:text-white border-2 border-white transition-all sm:w-40 sm:py-3 sm:rounded-full"
+            >
+                Learn More
+            </a>
+        </article>
+    </body>
+</html>
